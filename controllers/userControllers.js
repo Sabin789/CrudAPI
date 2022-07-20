@@ -6,7 +6,7 @@ const { populate, where } = require("../models/User")
 const { render } = require("ejs")
 const ObjectId=UserModel.ObjectId
 const mongoose= require ("mongoose")
-const { Types } = require("mysql")
+
 // Showing home page with all the users
 exports.showHomePage = async (req, res) => {
   try {
