@@ -1,7 +1,7 @@
 const express = require("express");
 const connectDB = require("./db");
 const router = require("./router");
-const session = require("cookie-session");
+const session = require("express-session");
 const app = express();
 const MongoStore= require("connect-mongo")
 const flash=require("connect-flash")
